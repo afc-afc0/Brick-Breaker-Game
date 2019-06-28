@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1327684450203974234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5849023595986616707}
+  - component: {fileID: 7836079073066207937}
+  m_Layer: 0
+  m_Name: BlockControl 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5849023595986616707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327684450203974234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.68, y: 15.404117, z: -1.3745246}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7836079073066207937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327684450203974234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1ced033bf84ce84a8108ead2298148d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxTag: BOX
+  Normal_block_prefab: {fileID: 279920342, guid: fe8ead45b89016043aa98c8f9d045823,
+    type: 3}
+  half_block1: {fileID: 8209480568096716965, guid: ab81b430da282a941833aa441916dc26,
+    type: 3}
+  half_block2: {fileID: 6380038388356980787, guid: 083a8c6d8039aaa4bb7fe6f13633e2be,
+    type: 3}
+  half_block3: {fileID: 1518803696380262633, guid: 37621374e7b599340a9a183cc6f83a21,
+    type: 3}
+  half_block4: {fileID: 7649500234624839826, guid: 7bbeaf9222b972d4fa04382953e0e237,
+    type: 3}
+  Randomize_pow_up_prefab: {fileID: 8380641043760216669, guid: 01d97d9acd29c914bab08b3f2686c6bf,
+    type: 3}
+  Laser_prefab_horizontal: {fileID: 5761481730143832339, guid: b32d15c42a659be4abeab04eead7745d,
+    type: 3}
+  Laser_prefab_vertical: {fileID: 873858390, guid: 8355ff2f7fe3f664cb0c062f3a84b483,
+    type: 3}
+  Laser_prefab_horizontal_and_vertical: {fileID: 8403025990778626092, guid: cb7b559fb317c2d4f9e987b26aec1b54,
+    type: 3}
+  spawnPositions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

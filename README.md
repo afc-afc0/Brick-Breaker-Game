@@ -1,8 +1,10 @@
 # Brick-Breaker-Game
 Clone of famous game BBTAN 
 
-- Written in Unity using C#
-- Builded using OOP.
+
+
+- Written in Unity using C#, for learning the engine and practicing OOP 
+- Builded using OOP
 - Added different level designs and mechanics
 
 
